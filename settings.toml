@@ -1,0 +1,9 @@
+[default]
+SECRET_KEY = 'secret'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///chatbot.db'
+EXTENSIONS = [
+  'mrspooner.blueprints.views'
+]
+
+[production]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///chatbot.db'
